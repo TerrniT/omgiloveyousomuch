@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@367;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+html{
+  -webkit-text-size-adjust : none;
+  text-size-adjust         : none
+}
 body {
     display: flex; 
     justify-content: center; 
@@ -27,9 +31,7 @@ h1 {
 .backphrase h3{
     position: fixed;
     color: pink;
-    font-size: 1.5rem;
-    margin: 13rem;
-
+    margin: 10.5rem;
 }
 .appreceite strong{
     font-style: italic;
@@ -39,7 +41,7 @@ h1 {
 small {
     font-style: italic;
     font-family: 'Poppins';
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     color: gray;
 }
 
@@ -47,12 +49,12 @@ small {
     position: absoulute;
     padding-bottom: 20rem;
     color: pink;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 .appreceite p{
     
     font-family: 'Poppins';
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     font-weight: bold;
 }
 .appreceite b{
@@ -125,4 +127,9 @@ small {
 @keyframes ani {
   0% {background: pink;}
   100% {background: black;}
+}
+
+
+@media screen and (max-width: 600px){
+
 }
