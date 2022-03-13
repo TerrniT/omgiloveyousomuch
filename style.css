@@ -28,10 +28,17 @@ h1 {
     border: solid 3px #cc526a;
     border-radius: 14px;
 }
+.backphrase{
+  position: relative;
+  display: inline-block;
+}
 .backphrase h3{
-    position: fixed;
+    position: absolute;
     color: pink;
-    margin: 10.5rem;
+    margin: 11.5rem;
+    padding-left: -2rem;
+    white-space:nowrap;
+    font-size: 0.9rem;
 }
 .appreceite strong{
     font-style: italic;
@@ -131,5 +138,6 @@ small {
 
 
 @media screen and (max-width: 600px){
-
+    h3{
+      font-size: 1.5rem;}
 }
